@@ -1,0 +1,75 @@
+/* Root Variable */
+
+:root {
+  --primary: #aa8dd9;
+  --secondary: #5c4bff;
+  --error: #ff4a4a;
+}
+
+/* Customize Title */
+.title {
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.title_logo {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #aa8dd9;
+}
+.title > h1 {
+  text-align: center;
+  color: #5c4bff;
+}
+
+.app {
+  margin: auto;
+  width: 95vw;
+
+  border: 2px solid black;
+}
+
+/* Flash Card container */
+.flashCards_container {
+  object-fit: contain;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+  margin: 10px;
+}
+.flashCard {
+  max-width: 100%;
+  margin: 10px;
+  transition: all 0.5s;
+}
+.flashCard:hover {
+  transform: scale(1.05);
+}
+
+/* LoadCard Styles */
+.loadCard {
+  width: 50%;
+  margin: auto;
+
+  border: 1px solid black;
+}
+.loadCard > form > div {
+  width: 75%;
+  margin: auto;
+}
+.loadCard > Button {
+  margin: 10px;
+}
+
+/* Customize Modal */
+/* .modalForm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+} */
